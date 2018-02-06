@@ -3,6 +3,24 @@ Icludes the safezones, script to remove AI and AI vehicles from safezones. Scrip
 
 (tnks oldmatechoc and nova for all help).
 
+**NOTE:** Currently the safezones are defined for chernarus map. If u are using other map change the coords in main_safezone.sqf here:
+```ruby
+_infiSZ =
+[
+    [[6325.6772,7807.7412,0],150,true],//stary
+    [[4063.4226,11664.19,0],150,true],//bash
+    [[11447.472,11364.504,0],150,true],//klen
+    [[1606.6443,7803.5156,0],150,true],//bandit
+    [[12944.227,12766.889,0],150,true],//hero
+    [[4361.4937,2259.9526,0],50,true],//wholesalerSouth
+    [[12060,12640,0],200,true]//air dealear
+];
+```
+
+
+
+
+
 INSTALL:
 
 1-Open your init.sqf and at very bottom paste:
